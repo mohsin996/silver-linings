@@ -1,14 +1,21 @@
 # One-Tier
 
 
-In this solution the we are using 
+In this solution we are using 
 - **Terraform** – To provision EC2 instance in a region.
 - **Ansible** - To Integrate configuration management.
 
 #### Terraform & Ansible Quickstart
 ```bash
 $ cd one-tier
+1. Terraform init
+```
+$ terraform init
+```
+2. Terraform plan
 $ terraform plan
+```
+
 $ terraform apply -auto-approve
 data.aws_vpc.default: Refreshing state...
 aws_key_pair.deployer: Creating...
