@@ -28,13 +28,14 @@ $ aws configure
 Creating config key file and directory structure
 ```bash
  $ ssh-keygen -t rsa -b 4096 -f ~/.ssh/my_aws
-
+```
 ## Cloning the repository
-```bash
-$ git clone https://github.com/mohsin996/wiki_problem_statement.git
-Cloning into 'wiki_problem_statement'...
-remote: Enumerating objects: 23, done.
-remote: Counting objects: 100% (23/23), done.
-remote: Compressing objects: 100% (19/19), docreate ne.
-remote: Total 23 (delta 3), reused 9 (delta 0), pack-reused 0
-Unpacking objects: 100% (23/23), done.```
+```
+$ git clone https://github.com/mohsin996/silver-linings.git
+Cloning into 'silver-linings'...
+remote: Enumerating objects: 63, done.
+remote: Counting objects: 100% (63/63), done.
+remote: Compressing objects: 100% (56/56), done.
+remote: Total 63 (delta 13), reused 40 (delta 2), pack-reused 0
+Unpacking objects: 100% (63/63), done.
+```
