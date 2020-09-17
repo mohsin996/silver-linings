@@ -6,16 +6,20 @@ In this solution we are using
 - **Ansible** - To Integrate configuration management.
 
 #### Terraform & Ansible Quickstart
-```bash
+1. Changing directory
+```
 $ cd one-tier
-1. Terraform init
+```
+2. Terraform initialization 
 ```
 $ terraform init
 ```
-2. Terraform plan
+3. Terraform Planning
+```
 $ terraform plan
 ```
-
+4. Terraform apply
+```
 $ terraform apply -auto-approve
 data.aws_vpc.default: Refreshing state...
 aws_key_pair.deployer: Creating...
@@ -42,6 +46,9 @@ aws_instance.app_server (local-exec): TASK [changing ownership of /var/www/html/
 aws_instance.app_server (local-exec): PLAY RECAP ***
 aws_instance.app_server (local-exec): 54.166.33.212: ok=15   changed=14   unreachable=0 failed=0 skipped=0 rescued=0    ignored=0
 aws_instance.app_server: Creation complete after 13m16s [id=i-0c536fd54d1686115]
+```
+5. Destroying the infra
+```
 $ terraform destroy -auto-approve
 aws_key_pair.deployer: Refreshing state... [id=app_key]
 data.aws_vpc.default: Refreshing state...
