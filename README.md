@@ -1,5 +1,5 @@
 # silver-linings
-This repository contains Terraform codes to create a one-tier and two tier prod application in AWS.
+This repository contains Terraform codes to create a one-tier and two tier prod LAMP application in AWS.
 ## Prerequisites:
 
 - AWS CLI (Install AWS CLI)
